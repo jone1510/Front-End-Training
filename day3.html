@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/day01/day3.css" />
+  </head>
+  <body>
+    <div id="form">
+      <h1>Enter Employee Details</h1>
+      <form action="">
+        <label for="ename">Employee name :</label>
+        <input type="text" name="empname" id="ename" /><br />
+
+        <label for="acc">Account number :</label>
+        <input type="tel" name="account" id="acc" /><br />
+
+        <label for="cin">Check in :</label>
+        <input type="time" name="chin" id="cin" /><br />
+
+        <label for="cout">Check out :</label>
+        <input type="time" name="chout" id="cout" /><br />
+
+        <input
+          type="button"
+          name="btn1"
+          id="btn"
+          onclick="fun()"
+          value="Submit"
+        />
+      </form>
+    </div>
+
+    <table id="table">
+      <thead id="thead">
+        <tr id="tr_th">
+          <th>Employee name</th>
+          <th>Account number</th>
+          <th>Check in</th>
+          <th>Check out</th>
+        </tr>
+      </thead>
+    </table>
+
+    <script src="/day01/day3.js"></script>
+  </body>
+</html>

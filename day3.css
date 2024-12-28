@@ -1,0 +1,53 @@
+#form{
+    border: 1px solid whitesmoke;
+    width: 400px;
+    height: 350px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    margin-top: 50px;
+    box-shadow: 1px 5px  10px rgb(135, 120, 120);
+}
+form label{
+    line-height: 50px;
+    display: inline-block;
+}
+#btn{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(28, 156, 207);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+#btn:hover{
+    box-shadow: 1px 5px 10px rgb(103, 146, 163);
+}
+#table{
+    margin-top: 50px;
+    margin-left: 300px;
+}
+table{
+    width: 70%;
+}
+thead{
+    background-color: bisque;
+}
+td{
+    background-color: aliceblue;
+}
+table,th,td{
+    border: 1px solid black;
+    border-spacing: 4px;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+}
+td{
+    text-align: center;
+}
