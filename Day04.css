@@ -1,0 +1,90 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  width: 1200px;
+  height: 670px;
+  padding: 20px 450px;
+  background-color: rgb(235, 227, 227);
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+#container1{
+  border: 1px solid black;
+  background-color: beige;
+  width: 600px;
+  height: 100%;
+}
+  
+header h1{
+  font-size: 40px;
+  font-family: Londrina Sketch;
+  text-align: center; 
+}
+#issue{
+  display: flex;
+  gap: 300px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  line-height: 30px;
+  padding-left: 10px;
+}
+main{
+  display: flex;
+}
+img{
+  width: 100%;
+  height: 400px;
+}
+aside{
+  width: 50%;
+  /* border: 1px solid black; */
+  padding: 20px;
+  text-align: justify;
+  font-size: 13px;
+}
+aside h1{
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-family: Agu Display;
+}
+aside p{
+  padding-top: 10px;
+}
+article{
+  display: flex;
+  position: relative;
+  bottom: 0px;
+}
+article h1{
+  font-family: Agu Display;
+  font-size: 20px;
+  padding: 10px;
+  /* padding-right: 100px; */
+  padding-left: 20px;
+  width: 40%;
+}
+article p{
+  font-size: 13px;
+  padding: 10px;
+  text-align: justify;
+  width: 60%;
+  padding: 20px;
+  border-left: 2px solid black;
+}
+footer p{
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+#next{
+  background-color: skyblue;
+  color: navy;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+}
+#next:hover{
+  box-shadow: 2px 2px 2px rgb(79, 77, 77);
+}
