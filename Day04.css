@@ -15,8 +15,24 @@ body{
   background-color: beige;
   width: 600px;
   height: 100%;
+  border-radius: 3px;
 }
-  
+#container2{
+  border: 1px solid black;
+  background-color: beige;
+  width: 600px;
+  height: 100%;
+  display: none;
+  border-radius: 3px;
+}
+#container3{
+  border: 1px solid black;
+  background-color: beige;
+  width: 600px;
+  height: 100%;
+  display: none;
+  border-radius: 3px;
+} 
 header h1{
   font-size: 40px;
   font-family: Londrina Sketch;
@@ -33,10 +49,10 @@ header h1{
 main{
   display: flex;
 }
-img{
+/* img{
   width: 100%;
   height: 400px;
-}
+} */
 aside{
   width: 50%;
   /* border: 1px solid black; */
@@ -78,13 +94,29 @@ footer p{
   left: 10px;
   bottom: 10px;
 }
-#next{
+.next{
   background-color: skyblue;
   color: navy;
   border-radius: 5px;
   width: 150px;
   height: 30px;
 }
-#next:hover{
+.next:hover{
   box-shadow: 2px 2px 2px rgb(79, 77, 77);
+}
+.prev{
+  background-color: skyblue;
+  color: navy;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  margin: 20px;
+}
+.prev:hover{
+  box-shadow: 2px 2px 2px rgb(79, 77, 77);
+}
+#cont2{
+  font-size: 13px;
+  text-align: justify;
+  padding: 0px 20px 20px 20px;
 }
