@@ -694,33 +694,5 @@
         ></path>
       </svg>
     </div>
-    <script>
-      var model = document.getElementById("model");
-      var modelOverly = document.getElementById("model-overly");
-
-      var ModelClose = document.getElementById("ic-md-cl");
-
-      var memberBtn = document.getElementById("memberLogin");
-      function ModelHandlerShow() {
-        model.classList.add("showWithAni");
-        modelOverly.classList.add("show");
-      }
-      function ModelHandlerHide() {
-        model.classList.remove("showWithAni");
-        modelOverly.classList.remove("show");
-      }
-
-      memberBtn.addEventListener("click", function () {
-        ModelHandlerShow();
-      });
-
-      ModelClose.addEventListener("click", function () {
-        ModelHandlerHide();
-      });
-
-      modelOverly.addEventListener("click", function () {
-        ModelHandlerHide();
-      });
-    </script>
   </body>
 </html>
